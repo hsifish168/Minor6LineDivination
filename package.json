@@ -1,21 +1,5 @@
-{
-  "name": "minor6linedivination",
-  "version": "1.0.0",
-  "private": true,
-  "homepage": "https://hsifish168.github.io/Minor6LineDivination",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "vite": "^5.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
-  }
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
 }
