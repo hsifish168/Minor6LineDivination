@@ -17,15 +17,15 @@ jobs:
         with:
           node-version: 18
 
-- name: Install dependencies
-  run: |
-    if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
-      echo "Lockfile found — running npm ci"
-      npm ci
-    else
-      echo "No lockfile found — running npm install"
-      npm install
-    fi
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            echo "Lockfile found — running npm ci"
+            npm ci
+          else
+            echo "No lockfile found — running npm install"
+            npm install
+          fi
 
       - name: Build
         run: npm run build
